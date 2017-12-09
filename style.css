@@ -1,0 +1,282 @@
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+li {
+    float: none;
+    display: inline-block;
+}
+ul > li > a {
+	color: #fff;
+	margin: 5vw;
+	text-transform: uppercase;
+	font-size: 13px;
+	opacity: 0.9;
+	font-weight: bold;
+
+}
+ul > li > a:hover {
+	color: #888888;
+}
+ul > li > img {
+	margin: 3vw;
+}
+.main_pic {
+	background-image: url(img/mainPicture.jpg);
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+.jumbo {
+	height: 50%;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.jumbo > h1 {
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.jumbo > p {
+	font-size: 18px;
+}
+.main_button {
+	background-color: #16a085;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	width: 160px;
+	margin: 0 auto;
+	height: 50px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+.fa {
+	color: #fff;
+	font-size: 25px;
+	padding: 8px;
+	position: relative;
+}
+.jumbo_main {
+	height: calc(100vh - 133px);
+}
+.icons {
+	position: absolute;
+	bottom: 10px;
+	left: calc(50% - 57px);
+}
+.navbar-light {
+	color: #fff !important;
+}
+.click {
+	color: #fff;
+	font-size: 50px;
+	padding: 10px;
+}
+.fa-caret-square-o-down {
+	font-size: 50px;
+	font-weight: 
+}
+
+/*section1*/ 
+.square1 {
+	background-image: url(img/hand.jpg);
+	background-size: cover;
+}
+.info {
+	width: 55%;
+	padding: 7% 20px;
+}
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #16a085;
+	letter-spacing: 2px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 26px;
+}
+.info > button {
+	margin-top: 25px;
+}
+.square2 {
+	margin: 8% 8% 0 50px;
+}
+.directions {
+	margin-top: 10%;
+}
+.direction {
+	border: none;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+.mySlides {
+	height: 200px;
+	position: relative
+}
+.numbers {
+	position: absolute;
+	bottom: -115px;
+	left: 4px;
+}
+.gallery {
+	background-color: #F6F6F8;
+	padding: 8% 5%;
+}
+.col-4 {
+
+}
+.col-8 {
+	height: 100%;
+}
+.photos > img {
+max-width: 100%;
+padding: 5px;
+
+}
+.camera_green {
+	padding-bottom: 5px;
+}
+.email {
+	background-image: url("img/secondPicture.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+.email h2 {
+	color: #fff;
+}
+input {
+	height: 50px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	padding: 5px;
+	border: none;
+	margin: 0;
+}
+.button_mail {
+	height: 51px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border: none;
+	background-color: #16a085;
+	color: #fff;
+	margin: 0;
+	position: relative;
+	top: 3px;
+}
+/* download sectionb */
+.download {
+	padding: 5% 10% 2%;
+	background-color: #F6F6F8;
+}
+.download2 {
+	background-color: #F6F6F8;
+	padding-bottom: 8%;
+}
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+}
+.shop {
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border: none;
+	width: 150px;
+	background-color: #16a085;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.shop_icon {
+	margin-right: 20px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border: none;
+	background-color: #376771;
+	color: #fff;
+}
+
+.shop > .fa {
+	text-align: right;
+	font-size: 25px;
+	margin-left: 60px;
+	background-color: green;
+	padding-right: 10px; 
+}
+footer {
+	margin: 50px;
+	font-weight: bold;
+}
+ol > li > a {
+	text-transform: uppercase;
+	color: #000;
+}
+ol > li > a:hover {
+	color: #376771;
+	text-decoration: none;
+}
+ol > li {
+	margin-right: 10px;
+}
+ol {
+	padding: 0;
+}
+button {
+	cursor: pointer;
+}
+.button_hover:hover {
+	background-color: #000;
+	opacity: 0.8;
+	transition: 0.4s;
+}
+.fa {
+	cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+
+li > img {
+	display: none;
+}
+ul > li {
+	margin: 0;
+	height: 40px;
+}
+ul > li > a {
+	margin: 0;
+}
+.camera_pic {
+	display: none;
+	height: 10px;
+}
+.main_button {
+	font-size: 12px;
+	width: 132px;
+}
+.info {
+	width: 100%;
+	padding: 7% 20px;
+}
+.square2 {
+	margin: 8% 10px 0 10px;
+}
+
+}
+@media only screen and (max-width: 767px) {
+	.phone {
+	display: none;
+}
+
+}
+ 
